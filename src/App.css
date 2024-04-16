@@ -1,0 +1,66 @@
+.data {
+  background-image: url("weather-image.jpg");
+  margin: auto;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  text-align: center;
+}
+
+.commom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  flex-direction: column;
+  color: rgb(39, 99, 211);
+  margin-top: 30px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.header {
+  padding-top: 50px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: "Titillium Web", sans-serif;
+  color: blue;
+  margin-top: 0px;
+  @media screen and (max-width: 500px) {
+    padding-top: 30px;
+    font-size: 35px;
+  }
+}
+
+.textfield {
+  margin-top: 0px;
+}
+
+.data_wrap {
+  background-color: rgba(244, 228, 279, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+  color: rgb(39, 99, 211);
+  margin: 30px auto 0;
+  border-radius: 10px;
+  font-family: cursive;
+  font-style: italic;
+  padding: 30px;
+  @media screen and (max-width: 600px) {
+    width: fit-content;
+    height: auto;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 20px;
+    width: 80%;
+  }
+}
+
+
