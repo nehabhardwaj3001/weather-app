@@ -58,7 +58,7 @@ function App() {
             style={{ width: "80px", height: "50px", marginLeft: "20px" }}
             type="submit"
           >
-            Search
+            Search 
           </Button>
         </form>
         {weatherData?.name ? (
