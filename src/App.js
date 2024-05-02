@@ -42,7 +42,7 @@ function App() {
     <div>
       <ToastContainer />
       <div className={`common data`}>
-        <h2 className="header"> Weather App </h2>
+        <h2 className="header"> Weather App  </h2>
         <form noValidate autoComplete="off" onSubmit={handleSubmit}>
           <TextField
             className="textfield"
